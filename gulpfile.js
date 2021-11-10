@@ -1,7 +1,8 @@
 
 const scss = require('gulp-sass')(require('sass'));
-const { src, dest, watch, parallel, series } = require('gulp');
+const { src, dest, watch, parallel, series} = require('gulp');
 const concat = require('gulp-concat');
+const uglify = require('gulp-uglify');
 const autoprefixer = require('gulp-autoprefixer');
 const imagemin = require('gulp-imagemin');
 const browserSync = require('browser-sync').create();
